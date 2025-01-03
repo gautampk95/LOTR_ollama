@@ -1,0 +1,7 @@
+discord.py
+ollama
+python-dotenv
+sentence_transformers
+langchain
+chardet
+numpy
