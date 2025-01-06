@@ -6,9 +6,9 @@ Here, the chatbot is built using the `Llama 3.1` language model, specifically th
 
 The Discord channel supports these commands:
 
-- **/hello**: The chatbot introduces itself and highlights its capabilities.
-- **/ask**: Send a question or query to the chatbot, and it will provide a response based on the content you requested. The chatbot exclusively answers questions related to the Lord of the Rings book contents. If a query is irrelevant to the books, it responds with a prompt indicating the query is outside its scope.
-- **/private**: A private chat thread is created in the channel to ensure the conversation remains confidential.
-- **/summarize**: This command summarizes your last few chats with the chatbot. It is recommended to use it in a private chat thread to ensure only relevant information is included in the summary.
+- **`/hello`**: The chatbot introduces itself and highlights its capabilities.
+- **`/ask`**: Send a question or query to the chatbot, and it will provide a response based on the content you requested. The chatbot exclusively answers questions related to the Lord of the Rings book contents. If a query is irrelevant to the books, it responds with a prompt indicating the query is outside its scope.
+- **`/private`**: A private chat thread is created in the channel to ensure the conversation remains confidential.
+- **`/summarize`**: This command summarizes your last few chats with the chatbot. It is recommended to use it in a private chat thread to ensure only relevant information is included in the summary.
 
 The Python files for these operations are available in the repository. Below are the steps to run your LOTR Discord chatbot powered by Ollama's Llama model 3.1.
