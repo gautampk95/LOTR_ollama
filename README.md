@@ -59,3 +59,10 @@ As mentioned earlier, this bot can be launched to run 24/7 on a cloud instance. 
 The bot takes a few seconds to a few minutes to generate responses. Under ideal conditions, with higher memory, response times can be reduced to just a few seconds. Since my machine has 16 GB of RAM, the bot's performance is sufficient for experimentation purposes. Improvements can be made to enhance the bot's efficiency and speed.
 
 The text files in the 'Knowledge_base_books' folder belong to their respective owners and are used solely for experimentation purposes.
+
+## Screenshots of the Chatbot conversation
+
+<p float="left">
+  <img src="/chatbot_conv/intro.png" width="450" />
+  <img src="/chatbot_conv/chatbot_channel_chats.png" width="450" />
+</p>
