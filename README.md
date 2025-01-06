@@ -31,13 +31,14 @@ python -m venv chat_bot   # chat_bot is the name of the virtual environment
 source ./chat_bot/bin/activate
 ```
 
-Next, install the required libraries listed in the requirements text file, then pull and run Llama 3.1:
+Change the directory path to where Python scripts are located. Next, install the required libraries listed in the requirements text file, then pull and run Llama 3.1 (to test it):
 ```bash
 pip install -r requirements.txt
 ollama pull llama3.1
+ollama run llama3.1
 ```
 
-Change the directory path to where Python scripts are located. In the `.env` file enter the `DISCORD_BOT_TOKEN` and `CLIENT_ID`. To get and set these environment variables, follow these steps to set up and configure your Discord channel:
+In the `.env` file enter the `DISCORD_BOT_TOKEN` and `CLIENT_ID`. To get and set these environment variables, follow these steps to set up and configure your Discord channel:
 - Go to the Discord Developer Applications [website](https://discord.com/developers/applications) and create a new application with a name that reflects your application's purpose (e.g., LOTR ChatBot). Then, under Settings > Bot, click on "Reset Token" to generate your bot token. Store this token as `DISCORD_BOT_TOKEN` in your `.env` file.
 - Enable "Server Members Intent" and "Message Content Intent" on the same Bot settings page. In the Bot Permissions section, enable "Send Messages" and any other permissions you wish to grant.
 - Under Settings > OAuth2, copy the Client ID and store this as `CLIENT_ID` in your `.env` file.
