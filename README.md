@@ -66,3 +66,10 @@ The text files in the 'Knowledge_base_books' folder belong to their respective o
   <img src="/chatbot_conv/intro.png" width="450" />
   <img src="/chatbot_conv/chatbot_channel_chats.png" width="450" />
 </p>
+
+<p float="left">
+  <img src="/chatbot_conv/private_chat_1.png" width="300" />
+  <img src="/chatbot_conv/private_chat_2.png" width="300" />
+  <img src="/chatbot_conv/private_chat_3.png" width="300" />
+</p>
+
